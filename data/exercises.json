@@ -52,5 +52,50 @@
     "image": "assets/images/kettlebell_swing.gif",
     "alt": "Swing Kettlebell",
     "notes": ""
+  },
+  {
+    "id": "e7",
+    "title": "Extensión de Tríceps FreeMotion",
+    "musculo": "triceps",
+    "equipo": "freemotion triceps",
+    "image": "assets/images/freemotion/triceps/FreeMotion_Tricep_Extension.gif",
+    "alt": "Extensión de Tríceps FreeMotion",
+    "notes": ""
+  },
+  {
+    "id": "e8",
+    "title": "Extensión de Tríceps FreeMotion 1",
+    "musculo": "triceps",
+    "equipo": "freemotion triceps",
+    "image": "assets/images/freemotion/triceps/FreeMotion_Tricep_Extension_1.gif",
+    "alt": "Extensión de Tríceps FreeMotion 1",
+    "notes": ""
+  },
+  {
+    "id": "e9",
+    "title": "Tríceps FreeMotion - Variante 1",
+    "musculo": "triceps",
+    "equipo": "freemotion triceps",
+    "image": "assets/images/freemotion/triceps/Free_Motion_Triceps.gif",
+    "alt": "Tríceps FreeMotion Variante 1",
+    "notes": ""
+  },
+  {
+    "id": "e10",
+    "title": "Tríceps FreeMotion - Variante 2",
+    "musculo": "triceps",
+    "equipo": "freemotion triceps",
+    "image": "assets/images/freemotion/triceps/Free_Motion_Triceps_1.gif",
+    "alt": "Tríceps FreeMotion Variante 2",
+    "notes": ""
+  },
+  {
+    "id": "e11",
+    "title": "Tríceps FreeMotion - Variante 3",
+    "musculo": "triceps",
+    "equipo": "freemotion triceps",
+    "image": "assets/images/freemotion/triceps/Free_Motion_Triceps_2.gif",
+    "alt": "Tríceps FreeMotion Variante 3",
+    "notes": ""
   }
 ]
