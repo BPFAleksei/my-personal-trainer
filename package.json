@@ -1,0 +1,11 @@
+{
+  "name": "mi-guia-gym",
+  "version": "0.1.0",
+  "description": "Guía simple de ejercicios",
+  "scripts": {
+    "start": "npx http-server -c-1 . -o",
+    "serve": "npx http-server -c-1 . -o"
+  },
+  "author": "",
+  "license": "MIT"
+}

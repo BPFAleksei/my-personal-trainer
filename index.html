@@ -3,120 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Guía de Gimnasio</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212;
-            color: #ffffff;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 { color: #00adb5; }
-        .container { max-width: 500px; margin: 0 auto; }
-        
-        /* Imagen de la máquina principal */
-        .maquina-btn {
-            width: 100%;
-            max-width: 300px;
-            border-radius: 15px;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-        }
-        .maquina-btn:hover {
-            transform: scale(1.03);
-            box-shadow: 0 4px 25px #00adb5;
-        }
-
-        /* Sección oculta de ejercicios */
-        .ejercicios-seccion {
-            display: none;
-            margin-top: 30px;
-            animation: fadeIn 0.5s ease-in-out forwards;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .ejercicio-card {
-            background-color: #1e1e1e;
-            border-radius: 12px;
-            padding: 15px;
-            margin-bottom: 25px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-        }
-        .ejercicio-card h3 {
-            margin-top: 0;
-            color: #eeeeee;
-        }
-        .ejercicio-card img {
-            width: 100%;
-            border-radius: 8px;
-        }
-
-        /* Botón para volver arriba */
-        .btn-volver {
-            background-color: #393e46;
-            color: #00adb5;
-            border: 2px solid #00adb5;
-            padding: 10px 20px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-weight: bold;
-            margin-bottom: 30px;
-        }
-    </style>
+    <title>Mi Guía Inteligente de Gym</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>🏋️‍♂️ Mis Máquinas</h1>
-        <p>Toca la máquina para ver la rutina</p>
-        
-        <img src="multiplane_lift.jfif" alt="Multiplane Lift" class="maquina-btn" onclick="mostrarEjercicios()">
-        
-        <div id="ejercicios" class="ejercicios-seccion">
-            <hr style="border: 1px solid #393e46; margin: 30px 0;">
-            <h2>Multi-Plane Lift - Ejercicios</h2>
-            <button class="btn-volver" onclick="ocultarEjercicios()">⬆️ Ocultar Rutina</button>
+    <h1>🏋️‍♂️ Mi Entrenador Digital</h1>
+    <p>Filtra por músculo o por equipo para decidir tu rutina al instante</p>
 
-            <div class="ejercicio-card">
-                <h3>1. Elevaciones Frontales Alternas (Hombros)</h3>
-                <img src="FREEMOTION_LIFT_ALTERNATING_FRONT_RAISES.gif" alt="Elevaciones Frontales">
-            </div>
-
-            <div class="ejercicio-card">
-                <h3>2. Sentadilla Split / Desplante con Cable (Piernas)</h3>
-                <img src="Fremotion__MultiPlane_Lift_1.gif" alt="Desplante Bajo">
-            </div>
-
-            <div class="ejercicio-card">
-                <h3>3. Peso Muerto Rumano a una Pierna (Glúteos/Isquios)</h3>
-                <img src="Fremotion__MultiPlane_Lift_2.gif" alt="Peso Muerto Unilateral">
-            </div>
-
-            <div class="ejercicio-card">
-                <h3>4. Elevación de Talones / Sentadilla Dinámica</h3>
-                <img src="Fremotion__MultiPlane_Lift.gif" alt="Elevación">
-            </div>
+    <div class="section-title">🎯 ¿Qué vas a entrenar hoy? (Músculo)</div>
+    <div class="filter-group" id="filtro-musculo">
+        <button class="btn-filter active" onclick="filtrar('todos', 'musculo', this)">Todos</button>
+        <button class="btn-filter" onclick="filtrar('hombro', 'musculo', this)">Hombro</button>
+        <button class="btn-filter" onclick="filtrar('pierna', 'musculo', this)">Pierna</button>
+        <button class="btn-filter" onclick="filtrar('espalda', 'musculo', this)">Espalda</button>
         </div>
+
+    <div class="section-title">🛠️ ¿Qué equipo tienes libre? (Máquina)</div>
+    <div class="filter-group" id="filtro-equipo">
+        <button class="btn-filter active" onclick="filtrar('todos', 'equipo', this)">Todos</button>
+        <button class="btn-filter" onclick="filtrar('multiplane', 'equipo', this)">Multi-Plane</button>
+        <button class="btn-filter" onclick="filtrar('mancuerna', 'equipo', this)">Mancuernas</button>
+        <button class="btn-filter" onclick="filtrar('kettlebell', 'equipo', this)">Kettlebell</button>
     </div>
 
-    <script>
-        function mostrarEjercicios() {
-            var seccion = document.getElementById("ejercicios");
-            seccion.style.display = "block";
-            // Hace un scroll suave hacia los ejercicios
-            seccion.scrollIntoView({ behavior: 'smooth' });
-        }
+    <div class="section-title" id="resultados-titulo">Ejercicios Disponibles</div>
 
-        function ocultarEjercicios() {
-            document.getElementById("ejercicios").style.display = "none";
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-    </script>
+    <div class="ejercicios-grid" id="ejercicios-grid"><!-- tarjetas renderizadas dinámicamente desde data/exercises.json -->
+
+    </div>
+
+    <script src="scripts/main.js"></script>
 </body>
 </html>

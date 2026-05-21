@@ -1,0 +1,56 @@
+[
+  {
+    "id": "e1",
+    "title": "Elevaciones Frontales Alternas",
+    "musculo": "hombro",
+    "equipo": "multiplane",
+    "image": "assets/images/FREEMOTION_LIFT_ALTERNATING_FRONT_RAISES.gif",
+    "alt": "Elevaciones Frontales",
+    "notes": ""
+  },
+  {
+    "id": "e2",
+    "title": "Sentadilla Split / Desplante",
+    "musculo": "pierna",
+    "equipo": "multiplane",
+    "image": "assets/images/Fremotion__MultiPlane_Lift_1.gif",
+    "alt": "Desplante",
+    "notes": ""
+  },
+  {
+    "id": "e3",
+    "title": "Peso Muerto Rumano Unilateral",
+    "musculo": "pierna",
+    "equipo": "multiplane",
+    "image": "assets/images/Fremotion__MultiPlane_Lift_2.gif",
+    "alt": "Peso Muerto",
+    "notes": ""
+  },
+  {
+    "id": "e4",
+    "title": "Elevación de Talones / Squat Dinámico",
+    "musculo": "pierna",
+    "equipo": "multiplane",
+    "image": "assets/images/Fremotion__MultiPlane_Lift.gif",
+    "alt": "Elevacion",
+    "notes": ""
+  },
+  {
+    "id": "e5",
+    "title": "Press Militar con Mancuerna",
+    "musculo": "hombro",
+    "equipo": "mancuerna",
+    "image": "assets/images/hombro_mancuerna.gif",
+    "alt": "Press Militar",
+    "notes": ""
+  },
+  {
+    "id": "e6",
+    "title": "Swing con Kettlebell",
+    "musculo": "espalda",
+    "equipo": "kettlebell",
+    "image": "assets/images/kettlebell_swing.gif",
+    "alt": "Swing Kettlebell",
+    "notes": ""
+  }
+]
