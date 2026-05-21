@@ -21,7 +21,13 @@ function renderExercises(list) {
     `).join('');
 }
 
+function normalizeFilterValue(value) {
+    return (value || '').toString().trim().toLowerCase();
+}
+
 function filtrar(valor, tipo, boton) {
+    const valorNormalized = normalizeFilterValue(valor);
+
     // Manejo visual de los botones activos (si se pasó boton)
     if (boton) {
         let grupo = boton.parentElement;
@@ -34,8 +40,8 @@ function filtrar(valor, tipo, boton) {
 
     const lista = window.exercises || [];
     let filtered;
-    if (valor === 'todos') filtered = lista;
-    else filtered = lista.filter(e => e[tipo] === valor);
+    if (valorNormalized === 'todos') filtered = lista;
+    else filtered = lista.filter(e => normalizeFilterValue(e[tipo]) === valorNormalized);
 
     renderExercises(filtered);
 
