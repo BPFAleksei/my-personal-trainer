@@ -28,7 +28,6 @@ function normalizeFilterValue(value) {
 function filtrar(valor, tipo, boton) {
     const valorNormalized = normalizeFilterValue(valor);
 
-    // Manejo visual de los botones activos (si se pasó boton)
     if (boton) {
         let grupo = boton.parentElement;
         let botones = grupo.getElementsByClassName('btn-filter');
@@ -40,6 +39,7 @@ function filtrar(valor, tipo, boton) {
 
     const lista = window.exercises || [];
     let filtered;
+
     if (valorNormalized === 'todos') filtered = lista;
     else filtered = lista.filter(e => normalizeFilterValue(e[tipo]) === valorNormalized);
 

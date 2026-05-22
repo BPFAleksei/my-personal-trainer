@@ -57,7 +57,7 @@
     "id": "e7",
     "title": "Extensión de Tríceps FreeMotion",
     "musculo": "triceps",
-    "equipo": "freemotion triceps",
+    "equipo": "freemotion-triceps",
     "image": "assets/images/freemotion/triceps/FreeMotion_Tricep_Extension.gif",
     "alt": "Extensión de Tríceps FreeMotion",
     "notes": ""
@@ -66,7 +66,7 @@
     "id": "e8",
     "title": "Extensión de Tríceps FreeMotion 1",
     "musculo": "triceps",
-    "equipo": "freemotion triceps",
+    "equipo": "freemotion-triceps",
     "image": "assets/images/freemotion/triceps/FreeMotion_Tricep_Extension_1.gif",
     "alt": "Extensión de Tríceps FreeMotion 1",
     "notes": ""
@@ -75,7 +75,7 @@
     "id": "e9",
     "title": "Tríceps FreeMotion - Variante 1",
     "musculo": "triceps",
-    "equipo": "freemotion triceps",
+    "equipo": "freemotion-triceps",
     "image": "assets/images/freemotion/triceps/Free_Motion_Triceps.gif",
     "alt": "Tríceps FreeMotion Variante 1",
     "notes": ""
@@ -84,7 +84,7 @@
     "id": "e10",
     "title": "Tríceps FreeMotion - Variante 2",
     "musculo": "triceps",
-    "equipo": "freemotion triceps",
+    "equipo": "freemotion-triceps",
     "image": "assets/images/freemotion/triceps/Free_Motion_Triceps_1.gif",
     "alt": "Tríceps FreeMotion Variante 2",
     "notes": ""
@@ -93,9 +93,55 @@
     "id": "e11",
     "title": "Tríceps FreeMotion - Variante 3",
     "musculo": "triceps",
-    "equipo": "freemotion triceps",
+    "equipo": "freemotion-triceps",
     "image": "assets/images/freemotion/triceps/Free_Motion_Triceps_2.gif",
     "alt": "Tríceps FreeMotion Variante 3",
+    "notes": ""
+  }
+
+  ,
+  {
+    "id": "e12",
+    "title": "Aperturas de Pecho (Fly)",
+    "musculo": "pecho",
+    "equipo": "multiplane-chest",
+    "maquina": "freemotion",
+    "boton": "Chest_Fly",
+    "image": "assets/images/freemotion/multiplane_chest/Chest_Fly.gif",
+    "alt": "Aperturas de Pecho",
+    "notes": ""
+  },
+  {
+    "id": "e13",
+    "title": "Press de Pecho",
+    "musculo": "pecho",
+    "equipo": "multiplane-chest",
+    "maquina": "freemotion",
+    "boton": "Chest_Press",
+    "image": "assets/images/freemotion/multiplane_chest/Chest_Press.gif",
+    "alt": "Press de Pecho",
+    "notes": ""
+  },
+  {
+    "id": "e14",
+    "title": "Press de Pecho Unilateral",
+    "musculo": "pecho",
+    "equipo": "multiplane-chest",
+    "maquina": "freemotion",
+    "boton": "One-Arm_Chest_Press",
+    "image": "assets/images/freemotion/multiplane_chest/One-Arm_Chest_Press.gif",
+    "alt": "Press de Pecho Unilateral",
+    "notes": ""
+  },
+  {
+    "id": "e15",
+    "title": "Press de Pecho de Pie",
+    "musculo": "pecho",
+    "equipo": "multiplane-chest",
+    "maquina": "freemotion",
+    "boton": "Standing_Chest_Press",
+    "image": "assets/images/freemotion/multiplane_chest/Standing_Chest_Press.gif",
+    "alt": "Press de Pecho de Pie",
     "notes": ""
   }
 ]
