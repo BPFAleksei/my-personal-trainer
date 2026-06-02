@@ -4,7 +4,7 @@
     "title": "Elevaciones Frontales Alternas",
     "musculo": "hombro",
     "equipo": "multiplane",
-    "image": "assets/images/FREEMOTION_LIFT_ALTERNATING_FRONT_RAISES.gif",
+    "image": "assets/images/freemotion/FREEMOTION_LIFT_ALTERNATING_FRONT_RAISES.gif",
     "alt": "Elevaciones Frontales",
     "notes": ""
   },
@@ -13,7 +13,7 @@
     "title": "Sentadilla Split / Desplante",
     "musculo": "pierna",
     "equipo": "multiplane",
-    "image": "assets/images/Fremotion__MultiPlane_Lift_1.gif",
+    "image": "assets/images/freemotion/Fremotion__MultiPlane_Lift_1.gif",
     "alt": "Desplante",
     "notes": ""
   },
@@ -22,7 +22,7 @@
     "title": "Peso Muerto Rumano Unilateral",
     "musculo": "pierna",
     "equipo": "multiplane",
-    "image": "assets/images/Fremotion__MultiPlane_Lift_2.gif",
+    "image": "assets/images/freemotion/Fremotion__MultiPlane_Lift_2.gif",
     "alt": "Peso Muerto",
     "notes": ""
   },
@@ -31,7 +31,7 @@
     "title": "Elevación de Talones / Squat Dinámico",
     "musculo": "pierna",
     "equipo": "multiplane",
-    "image": "assets/images/Fremotion__MultiPlane_Lift.gif",
+    "image": "assets/images/freemotion/Fremotion__MultiPlane_Lift.gif",
     "alt": "Elevacion",
     "notes": ""
   },
