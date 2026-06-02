@@ -34,6 +34,17 @@
         <button class="btn-filter" onclick="filtrar('freemotion-row', 'equipo', this)">FreeMotion Row</button>
     </div>
 
+    <section class="rutina-dia" aria-labelledby="rutina-titulo">
+        <div class="rutina-header">
+            <div>
+                <div class="section-title" id="rutina-titulo">🔥 Mi Rutina Actual</div>
+                <p class="rutina-resumen" id="rutina-resumen">Agrega ejercicios a tu rutina de hoy desde las tarjetas.</p>
+            </div>
+            <button class="btn-filter btn-small" type="button" onclick="toggleRutinaDetalle()">Ver lista</button>
+        </div>
+        <div class="rutina-list" id="rutina-list"></div>
+    </section>
+
     <div class="section-title" id="resultados-titulo">Ejercicios Disponibles</div>
 
     <div class="ejercicios-grid" id="ejercicios-grid"><!-- tarjetas renderizadas dinámicamente desde data/exercises.json -->
