@@ -143,5 +143,82 @@
     "image": "assets/images/freemotion/multiplane_chest/Standing_Chest_Press.gif",
     "alt": "Press de Pecho de Pie",
     "notes": ""
+  },
+  {
+    "id": "e16",
+    "title": "Press de Hombros Alterno Sentado",
+    "musculo": "hombro",
+    "equipo": "freemotion-shoulder",
+    "maquina": "freemotion",
+    "boton": "Seated_Alternating_Cable_Shoulder_Press",
+    "image": "assets/images/freemotion/shoulder_press/Seated Alternating Cable Shoulder Press.gif",
+    "alt": "Press de Hombros Alterno Sentado",
+    "notes": ""
+  },
+  {
+    "id": "e17",
+    "title": "Press de Hombros Sentado (Agarre Neutral)",
+    "musculo": "hombro",
+    "equipo": "freemotion-shoulder",
+    "maquina": "freemotion",
+    "boton": "Seated_Cable_Shoulder_Press_Neutral_Grip",
+    "image": "assets/images/freemotion/shoulder_press/Seated Cable Shoulder Press (Neutral Grip).gif",
+    "alt": "Press de Hombros Sentado Agarre Neutral",
+    "notes": ""
+  },
+  {
+    "id": "e18",
+    "title": "Press de Hombros Sentado",
+    "musculo": "hombro",
+    "equipo": "freemotion-shoulder",
+    "maquina": "freemotion",
+    "boton": "Seated_Cable_Shoulder_Press",
+    "image": "assets/images/freemotion/shoulder_press/Seated Cable Shoulder Press.gif",
+    "alt": "Press de Hombros Sentado",
+    "notes": ""
+  },
+  {
+    "id": "e19",
+    "title": "Elevaciones Laterales de Pie con Cable",
+    "musculo": "hombro",
+    "equipo": "freemotion-shoulder",
+    "maquina": "freemotion",
+    "boton": "Standing_Cable_Lateral_Raises",
+    "image": "assets/images/freemotion/shoulder_press/Standing Cable Lateral Raises.gif",
+    "alt": "Elevaciones Laterales de Pie con Cable",
+    "notes": ""
+  },
+  {
+    "id": "e20",
+    "title": "Desplante con Press de Hombro Unilateral",
+    "musculo": "hombro",
+    "equipo": "freemotion-shoulder",
+    "maquina": "freemotion",
+    "boton": "Standing_Lunge_to_Single-Arm_Cable_Press",
+    "image": "assets/images/freemotion/shoulder_press/Standing Lunge to Single-Arm Cable Press.gif",
+    "alt": "Desplante con Press de Hombro Unilateral",
+    "notes": ""
+  },
+  {
+    "id": "e21",
+    "title": "Elevación Lateral Unilateral de Pie con Cable",
+    "musculo": "hombro",
+    "equipo": "freemotion-shoulder",
+    "maquina": "freemotion",
+    "boton": "Standing_Single-Arm_Cable_Lateral_Raise",
+    "image": "assets/images/freemotion/shoulder_press/Standing Single-Arm Cable Lateral Raise.gif",
+    "alt": "Elevación Lateral Unilateral de Pie con Cable",
+    "notes": ""
+  },
+  {
+    "id": "e22",
+    "title": "Press de Hombros Unilateral de Pie",
+    "musculo": "hombro",
+    "equipo": "freemotion-shoulder",
+    "maquina": "freemotion",
+    "boton": "Standing_Single-Arm_Cable_Shoulder_Press",
+    "image": "assets/images/freemotion/shoulder_press/Standing Single-Arm Cable Shoulder Press.gif",
+    "alt": "Press de Hombros Unilateral de Pie",
+    "notes": ""
   }
 ]
