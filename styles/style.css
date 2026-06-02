@@ -105,6 +105,20 @@ p {
     border: 1px solid rgba(0,173,181,0.18);
 }
 
+.btn-machine {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-machine-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.12);
+}
+
 .featured-icon {
     margin-right: 8px;
     display: inline-block;

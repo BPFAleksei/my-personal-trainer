@@ -24,9 +24,14 @@
     <div class="section-title">🛠️ ¿Qué equipo tienes libre? (Máquina)</div>
     <div class="filter-group" id="filtro-equipo">
         <button class="btn-filter btn-todos active" onclick="filtrar('todos', 'equipo', this)">Todos</button>
-        <button class="btn-filter btn-featured" onclick="filtrar('multiplane', 'equipo', this)"><span class="featured-icon" aria-hidden="true">⭐</span> MULTI-PLANE LIFT</button>
+        <button class="btn-filter btn-featured btn-machine" onclick="filtrar('multiplane', 'equipo', this)">
+            <img src="assets/images/multiplane_lift.jfif" alt="Multiplane Lift" class="btn-machine-img">
+            <span>Multiplane Lift</span>
+        </button>
         <button class="btn-filter" onclick="filtrar('freemotion-triceps', 'equipo', this)">FreeMotion Tríceps</button>
         <button class="btn-filter" onclick="filtrar('multiplane-chest', 'equipo', this)">Multiplane Chest</button>
+        <button class="btn-filter" onclick="filtrar('freemotion-shoulder', 'equipo', this)">FreeMotion Shoulder Press</button>
+        <button class="btn-filter" onclick="filtrar('freemotion-row', 'equipo', this)">FreeMotion Row</button>
     </div>
 
     <div class="section-title" id="resultados-titulo">Ejercicios Disponibles</div>

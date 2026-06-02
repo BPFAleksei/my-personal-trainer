@@ -220,5 +220,115 @@
     "image": "assets/images/freemotion/shoulder_press/Standing Single-Arm Cable Shoulder Press.gif",
     "alt": "Press de Hombros Unilateral de Pie",
     "notes": ""
+  },
+  {
+    "id": "e23",
+    "title": "Remo Sentado con Face-Pull",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Seated_Cable_Row_Face_Pull_Variation",
+    "image": "assets/images/freemotion/row/Seated Cable Row (Face-Pull Variation).gif",
+    "alt": "Remo Sentado con Face-Pull",
+    "notes": ""
+  },
+  {
+    "id": "e24",
+    "title": "Remo Sentado con Rotación",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Seated_Cable_Row_with_Rotation",
+    "image": "assets/images/freemotion/row/Seated Cable Row with Rotation.gif",
+    "alt": "Remo Sentado con Rotación",
+    "notes": ""
+  },
+  {
+    "id": "e25",
+    "title": "Remo Alto Sentado Agarre Neutral",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Seated_High_Cable_Row_Neutral_Grip",
+    "image": "assets/images/freemotion/row/Seated High Cable Row (Neutral Grip).gif",
+    "alt": "Remo Alto Sentado Agarre Neutral",
+    "notes": ""
+  },
+  {
+    "id": "e26",
+    "title": "Remo Alto a Bajo Sentado",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Seated_High-to-Low_Cable_Row",
+    "image": "assets/images/freemotion/row/Seated High-to-Low Cable Row (Unsupported).gif",
+    "alt": "Remo Alto a Bajo Sentado",
+    "notes": ""
+  },
+  {
+    "id": "e27",
+    "title": "Remo Bajo Sentado Supinado",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Seated_Low_Cable_Row_Underhand_Supinated_Grip",
+    "image": "assets/images/freemotion/row/Seated Low Cable Row (UnderhandSupinated Grip).gif",
+    "alt": "Remo Bajo Sentado Supinado",
+    "notes": ""
+  },
+  {
+    "id": "e28",
+    "title": "Remo Unilateral Sentado Apoyado",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Seated_Single-Arm_Cable_Row_Chest-Supported",
+    "image": "assets/images/freemotion/row/Seated Single-Arm Cable Row (Chest-Supported).gif",
+    "alt": "Remo Unilateral Sentado Apoyado",
+    "notes": ""
+  },
+  {
+    "id": "e29",
+    "title": "Remo Unilateral Sentado Sin Apoyo",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Seated_Single-Arm_Cable_Row_Unsupported",
+    "image": "assets/images/freemotion/row/Seated Single-Arm Cable Row (Unsupported).gif",
+    "alt": "Remo Unilateral Sentado Sin Apoyo",
+    "notes": ""
+  },
+  {
+    "id": "e30",
+    "title": "Remo Amplio Alto Sentado",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Seated_Wide_High_Cable_Row",
+    "image": "assets/images/freemotion/row/Seated Wide High Cable Row.gif",
+    "alt": "Remo Amplio Alto Sentado",
+    "notes": ""
+  },
+  {
+    "id": "e31",
+    "title": "Remo Alto a Bajo de Pie",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Standing_High-to-Low_Cable_Row_Isometric_Squat",
+    "image": "assets/images/freemotion/row/Standing High-to-Low Cable Row (Isometric Squat).gif",
+    "alt": "Remo Alto a Bajo de Pie",
+    "notes": ""
+  },
+  {
+    "id": "e32",
+    "title": "Remo Unilateral de Pie en Lunge",
+    "musculo": "espalda",
+    "equipo": "freemotion-row",
+    "maquina": "freemotion",
+    "boton": "Standing_Single-Arm_Cable_Row_Isometric_Lunge",
+    "image": "assets/images/freemotion/row/Standing Single-Arm Cable Row (Isometric Lunge).gif",
+    "alt": "Remo Unilateral de Pie en Lunge",
+    "notes": ""
   }
 ]
