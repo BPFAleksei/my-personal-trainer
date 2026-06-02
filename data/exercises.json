@@ -36,6 +36,61 @@
     "notes": ""
   },
   {
+    "id": "e33",
+    "title": "Desplante en Polea",
+    "musculo": "pierna",
+    "equipo": "multiplane-squat",
+    "maquina": "freemotion",
+    "boton": "Polea_Lunge",
+    "image": "assets/images/freemotion/squat/Desplante en Polea.gif",
+    "alt": "Desplante en Polea",
+    "notes": ""
+  },
+  {
+    "id": "e34",
+    "title": "Front Hack Split Squat",
+    "musculo": "pierna",
+    "equipo": "multiplane-squat",
+    "maquina": "freemotion",
+    "boton": "Front_Hack_Split_Squat",
+    "image": "assets/images/freemotion/squat/Front Hack Split Squat.gif",
+    "alt": "Front Hack Split Squat",
+    "notes": ""
+  },
+  {
+    "id": "e35",
+    "title": "Front Hack Squat",
+    "musculo": "pierna",
+    "equipo": "multiplane-squat",
+    "maquina": "freemotion",
+    "boton": "Front_Hack_Squat",
+    "image": "assets/images/freemotion/squat/Front Hack Squat.gif",
+    "alt": "Front Hack Squat",
+    "notes": ""
+  },
+  {
+    "id": "e36",
+    "title": "Sentadilla Búlgara",
+    "musculo": "pierna",
+    "equipo": "multiplane-squat",
+    "maquina": "freemotion",
+    "boton": "Bulgarian_Squat",
+    "image": "assets/images/freemotion/squat/Sentadilla Búlgara.gif",
+    "alt": "Sentadilla Búlgara",
+    "notes": ""
+  },
+  {
+    "id": "e37",
+    "title": "Sentadilla con Salto",
+    "musculo": "pierna",
+    "equipo": "multiplane-squat",
+    "maquina": "freemotion",
+    "boton": "Jump_Squat",
+    "image": "assets/images/freemotion/squat/Sentadilla con Salto.gif",
+    "alt": "Sentadilla con Salto",
+    "notes": ""
+  },
+  {
     "id": "e5",
     "title": "Press Militar con Mancuerna",
     "musculo": "hombro",
